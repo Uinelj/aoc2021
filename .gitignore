@@ -3,4 +3,5 @@
 day*
 !day*.txt
 !day*.hs
+!day*.rs
 rs/target*
