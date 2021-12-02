@@ -5,7 +5,7 @@ import System.IO
 main = do 
 
   -- step 1
-  handle <- openFile "day1.txt" ReadMode
+  handle <- openFile "../txt/day1.txt" ReadMode
   contents <- hGetContents handle
   let depths = map readInt . words $ contents
   let deltas = zip depths (tail depths)
